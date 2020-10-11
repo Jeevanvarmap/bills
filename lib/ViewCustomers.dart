@@ -21,7 +21,7 @@ class _ViewCustomersState extends State<ViewCustomers> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('View Customers'),
+          title: Text('View Customers '),
         ),
         body: ListView.builder(
           itemBuilder: (context, index) {
